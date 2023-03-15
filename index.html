@@ -4,35 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e46d3026c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Youtube Clone</title>
 </head>
 <body>
     <main class="grid">
         <header>
-            <nav>
-                <ul>
-                    <li></li>
-                    <li></li>                    
-                </ul>                
-            </nav>
+            <img src="https://www.seekpng.com/png/detail/77-772362_youtube-logo-youtube-logo-png.png" alt="youtube-logo">
+            <nav>                
+                <input type="text" placeholder="  Search">                
+                <button class="glass"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="mic"><i class="fa-solid fa-microphone"></i></button>               
+            </nav>    
+                <div class="icon-header">
+                    <button><i class="fa-solid fa-video"></i></button>
+                    <button><i class="fa-regular fa-bell"></i></button>
+                </div>                
+            
         </header>      
         <section class="principal-video">
-            <figcaption>
-                <label for=""></label>               
-            </figcaption>
-            <div class="description">                
+            <figure>                
+                <iframe src="https://www.youtube.com/embed/Z93SdirnzTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>               
+            </figure>
+            <div class="description">  
+                <h3>Rhapsody - The Magic of the Wizard's Dream</h3>
+                <p style="font-size: larger;">thefallenangel713</p>                
+                <p>2560 suscriptores</p>
+                <br>                                       
+                <p>5,5 M de visitas  hace 15 años</p>
+                <p>The Magic of the Wizard's Dream, released in 2005, is Rhapsody's fourth single. The song featured Christopher Lee and Fabio Lione singing a duet.</p>                                               
             </div>
-            <div class="coments">                
+            <div class="coments">  
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet saepe molestiae, necessitatibus adipisci quis recusandae aliquam magnam aspernatur quo enim expedita minus. Qui autem corporis totam ullam nam, modi ex?</p>              
             </div>
         </section>
         <section class="side-bar">
-            <article class="side-videos"></article>
-            <article class="side-videos"></article>  
-            <article class="side-videos"></article>  
-            <article class="side-videos"></article>  
-            <article class="side-videos"></article>  
-            <article class="side-videos"></article>              
+            <article class="order-button">
+                <button class="all"><p>All</p></button>
+                <button class="list"><p>List</p></button>
+            </article>
+            <article class="side-videos">
+                <p>Banjo player</p>
+                <img src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg" alt="banjo-player">                
+            </article>
+            <article class="side-videos">
+                <p>Banjo player</p>
+                <img src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg" alt="banjo-player">                
+            </article>
+            <article class="side-videos">
+                <p>Banjo player</p>
+                <img src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg" alt="banjo-player">                
+            </article>
+            <article class="side-videos">
+                <p>Banjo player</p>
+                <img src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg" alt="banjo-player">                
+            </article>
+            <article class="side-videos">
+                <p>Banjo player</p>
+                <img src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_1280.jpg" alt="banjo-player">                
+            </article>
+
+            </article>              
         </section>
     </main>
 </body>

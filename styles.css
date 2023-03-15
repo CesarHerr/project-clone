@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template: 6% repeat(5,19%)  / 70% 30%;
+    height: 1000px;    
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    grid-area: 1/1/1/3;   
+    margin: 0 2rem; 
+}
+
+header img {
+    width: 100px;
+    height: 30px;
+    margin-top: 0.6rem; 
+}
+
+header nav {  
+    display: flex; 
+    margin: 0.6rem 0;        
+}
+
+header nav input {
+    width: 32rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+    border: 1px solid rgb(214,214,215);
+    
+}
+
+header nav button {
+    font-size: larger;       
+}
+
+header nav .glass {
+    border-radius: 0 1.5rem 1.5rem 0;
+    border: 1px solid rgb(214,214,215);
+    width: 4rem;
+}
+
+header nav .mic {
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    height: 90%;
+    background: none;
+    border: none;
+    width: 2.5rem;
+
+}
+
+header nav button:hover {
+    cursor: pointer;
+    background-color: rgb(235, 230, 230);
+}
+
+header nav button:active {
+    background-color: rgb(219, 214, 214);
+}
+
+ header .icon-header {
+    padding: 0.2rem 0.5rem;
+    font-size: x-large;
+    display: flex;
+    align-items: center;  
+} 
+
+header .icon-header button {
+    width: 2.5rem;
+    height: 2.3rem;      
+    border-radius: 1.2rem;
+    background: none;
+    border: none; 
+}
+   
+header .icon-header button:hover {
+    cursor: pointer;
+    background-color: rgb(245, 238, 238);
+}
+
+header .icon-header button:active {
+    background-color: rgb(224, 221, 221);
+}
+
+header .icon-header i {
+    font-size: x-large;    
+}
+
+.principal-video {    
+     grid-area: 2/1/7/2;    
+}
+
+.principal-video figure iframe {
+    margin-left: 3rem;
+    height: 90%;
+    width: 90%;
+    max-width: 920px;
+    min-width: 600px;        
+}
+
+.description, .coments {
+   margin: 0 2rem 5rem  5rem;
+}
+
+.description h3 {
+    margin-bottom: 1.5rem ;
+}
+
+.principal-video figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+}
+
+.side-bar {
+    display: flex; 
+    flex-direction: column;
+    grid-area: 2/2/7/3;
+      
+}
+
+.side-bar article img{
+    width: 12rem;
+    border-radius: 0.8rem;
+}
+
+.side-bar  .order-button p{
+    font-size: 22px;
+    left:0;
+    top:0;
+}
+
+.side-bar   p{
+    position: relative;
+    font-size: 18px;
+    left: 13rem;
+    top: 3rem;
+}
+
+.side-bar  button {
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: none;    
+}
+
+.order-button {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2rem 1rem 0 0;
+   
+    
+}
+
+.order-button .all {
+    background-color: black;
+    color: white;
+}
+
+.order-button button:hover {
+    cursor: pointer;
+}
+
+.order-button .list:hover {
+    background-color: rgb(233, 231, 231);
+}
